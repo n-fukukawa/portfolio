@@ -1,0 +1,10 @@
+.workcard-wrapper {
+  width: calc(50% - 16px);
+  margin: 8px;
+}
+
+@media (max-width: 768px) {
+  .workcard-wrapper {
+    width: 100%;
+  }
+}
