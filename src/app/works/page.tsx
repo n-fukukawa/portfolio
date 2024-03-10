@@ -6,6 +6,12 @@ import './style.css'
 
 const works = [
   {
+    title: '将棋学習帳',
+    thumbnail: '/assets/img/shogi_app.png',
+    link: 'http://52.199.138.183',
+    comment: `日々の将棋の学習を記録するアプリです。学習内容ごとに色分けし、何をどれだけ学習したか一目でわかるデザインにしました。`
+  },
+  {
     title: 'Mini Room',
     thumbnail: '/assets/img/room.png',
     link: '/works/room',
