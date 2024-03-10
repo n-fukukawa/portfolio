@@ -14,13 +14,13 @@ const works = [
   {
     title: 'Mini Room',
     thumbnail: '/assets/img/room.png',
-    link: '/works/room',
+    link: '/works/room.html',
     comment: `Blenderで3Dモデルを作成し、Three.jsで表示しています。モニターはシェーダーを書いてスクリーンセーバーを表現しました`
   },
   {
     title: 'Portal with fireflies',
     thumbnail: '/assets/img/portal.png',
-    link: '/works/portal',
+    link: '/works/portal.html',
     comment: `Bruno Simon氏による講座の修了作品 右上のControlパネルから色々変更できます`
   },
   {
