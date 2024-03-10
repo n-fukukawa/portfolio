@@ -57,12 +57,12 @@ function HorizontalNavList({ className }: { className?: string }) {
       <ul className="flex">
         {links.map((link) => (
           <li className="mx-4 my-2" key={link.path}>
-            <Link
+            <a
               href={link.path}
               className={navItemClassName(pathname === link.path)}
             >
               {link.name}
-            </Link>
+            </a>
           </li>
         ))}
       </ul>

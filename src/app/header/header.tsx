@@ -10,15 +10,15 @@ export default function Header() {
       style={{ zIndex: 1, height: 90 }}
     >
       <div className="flex items-center mr-16 p-2">
-        <Link href="/" className="text-3xl">
+        <a href="/" className="text-3xl">
           fukulab
-        </Link>{' '}
+        </a>
       </div>
       <Navigation />
       <div className="sm:block hidden grow text-right hover:text-sky-800">
-        <Link href="https://github.com/n-fukukawa/portfolio" target="_blank">
+        <a href="https://github.com/n-fukukawa/portfolio" target="_blank">
           <GitHub fontSize="large" />
-        </Link>
+        </a>
       </div>
     </header>
   )
