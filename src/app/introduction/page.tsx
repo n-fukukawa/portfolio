@@ -33,7 +33,7 @@ export default function Introduction() {
       <div className="mt-4">
         <div>
           <div>将棋大好きエンジニアのふくかわです。</div>
-          <div>兵庫県出身、在住</div>
+          <div>兵庫県出身、在住。ミニマリスト。</div>
           <div>1995年生まれ</div>
         </div>
         <div className="mt-6">
